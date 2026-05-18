@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Blog Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <div>
+                <p class="eyebrow">Blog de Carros</p>
+                <h1>Fale conosco</h1>
+                <p class="tagline">Tem sugestões, dúvidas ou quer compartilhar sua história? Estamos aqui para ouvir.</p>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html#ultimas">Últimas</a>
+                <a href="index.html#review">Review</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>Entre em contato</h2>
+                <p>Queremos ouvir sua opinião! Envie uma mensagem através do formulário abaixo ou entre em contato através dos canais disponíveis.</p>
+                
+                <div class="info-cards">
+                    <div class="info-card">
+                        <h3>Email</h3>
+                        <p><a href="mailto:contato@blogcarros.com">contato@blogcarros.com</a></p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Telefone</h3>
+                        <p><a href="tel:+5511999999999">(11) 9 9999-9999</a></p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Horário</h3>
+                        <p>Segunda a Sexta, 9h às 18h</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2>Envie sua mensagem</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome *</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Assunto *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="sugestao">Sugestão de pauta</option>
+                            <option value="historia">Compartilhar história</option>
+                            <option value="publicidade">Publicidade</option>
+                            <option value="tecnico">Suporte técnico</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Blog Carros © 2026 | Conteúdo para apaixonados por mobilidade</p>
+    </footer>
+</body>
+</html>
